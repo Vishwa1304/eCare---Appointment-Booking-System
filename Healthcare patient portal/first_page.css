@@ -1,0 +1,33 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url('https://img.freepik.com/free-photo/medical-banner-with-doctor-wearing-coat_23-2149611199.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.custom-navbar {
+    background: rgba(0, 123, 255, 0.85);
+    padding: 0.8rem 2rem;
+}
+
+.main-container {
+    height: calc(100% - 80px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-section {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.login-section h1 {
+    color: #007bff;
+    font-weight: bold;
+}
